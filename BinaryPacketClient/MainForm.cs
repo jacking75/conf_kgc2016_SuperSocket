@@ -43,7 +43,7 @@ namespace BinaryPacketClient
             if (recvData != null && recvData.Item1 > 0)
             {
                 // 패킷 뭉쳐 오는 것은 고려하지 않았음..^^;;;
-                var arySeg = new ArraySegment<byte>(recvData.Item2, 12, (recvData.Item1-8));
+                var arySeg = new ArraySegment<byte>(recvData.Item2, 8, (recvData.Item1 - 8));
                 string msg = System.Text.Encoding.GetEncoding("utf-16").GetString(arySeg.ToArray());
                 textBoxRecvEcho.Text = msg;
             }
