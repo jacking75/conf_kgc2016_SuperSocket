@@ -10,4 +10,4 @@ English
 =====
 KGC 2016 'SuperSocket' Lecture
 
-We recommend viewing the chat server at [SuperSocket_Samples] (https://github.com/jacking75/SuperSocket_Samples) after viewing this material.
+We recommend viewing the chat server at [SuperSocket_Samples](https://github.com/jacking75/SuperSocket_Samples) after viewing this material.
